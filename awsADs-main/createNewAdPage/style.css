@@ -1,0 +1,114 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-container {
+    background-color: darkblue;
+    color: lightblue;
+    padding: 0.8rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.small {
+    font-size: 0.8rem;
+}
+
+.text-right {
+    text-align: right;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: 1.5rem;
+}
+
+.main-container {
+    margin: 0 auto;
+    padding: 0.1rem;
+    width: 70vw;
+    min-height: 100vh;
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    color: darkblue;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.home-btn {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: lightblue;
+}
+
+.return-home-btn {
+    padding: 0.5rem;
+    background-color: darkblue;
+    color: lightblue;
+    border-radius: 0.5rem;
+    border: 2px solid lightblue;
+    text-decoration: none;
+}
+
+.form-container {
+    width: 60vw;
+    margin: 2rem auto;
+    background-color: white;
+    color: rgb(40, 40, 40);
+    border: 2px solid white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+label {
+    display: block;
+    margin-top: 1.5rem;
+    text-align: left;
+    line-height: 1.5rem;
+    margin-left: 5%;
+}
+
+.block-input {
+    display: block;
+    width: 90%;
+    margin: 0.2rem auto 1rem;
+    line-height: 1.5rem;
+    border: 2px solid lightgray;
+}
+
+.save-btn,
+.cancel-btn-link {
+    padding: 0.8rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    background-color: darkblue;
+    color: lightblue;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    border: 2px solid lightblue;
+    text-decoration: none;
+}
+
+.save-btn {
+    margin-right: 5%;
+}
+
+.cancel-btn-link {
+    margin-left: 5%;
+}

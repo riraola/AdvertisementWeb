@@ -1,0 +1,3 @@
+página con todos los registros de la tabla anuncios: https://48vo8uvu9e.execute-api.eu-west-1.amazonaws.com/Produccion/anuncios
+
+página web principal: https://bucket-anuncios.s3.eu-west-1.amazonaws.com/index.html#
